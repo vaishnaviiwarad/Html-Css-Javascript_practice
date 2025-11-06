@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Concepts Example</title>
+
+<style>
+    
+    body {
+        
+        background: rgba(255, 255, 0, 0.278);
+        text-align: center;
+    }
+
+    
+    #title {
+        color: darkblue;
+        background: linear-gradient(to right, yellow, orange);
+        padding: 20px;
+    }
+
+   
+    .card {
+        width: 300px;
+        padding: 20px;       
+        margin: 30px auto;   
+        border-radius: 12px;
+        background: white;
+        color: black;        
+        box-shadow: 10px 5px 10px black;
+    }
+
+    
+    .highlight {
+        background: radial-gradient(circle, pink, red);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    button{
+       background: red; 
+           color: white; 
+     padding: 10px 20px; 
+           border: none; 
+        border-radius: 8px;
+    }
+    button:hover {
+        background-color: darkgreen;
+    }
+
+   
+    @media (max-width: 600px) {
+        .card {
+            width: 90%;
+            background: lightyellow;
+            border-color: brown;
+        }
+    }
+</style>
+
+</head>
+<body>
+
+<h1 id="title">CSS All Concepts Example</h1>
+
+<div class="card">
+    <p>This box uses box model: margin, padding, border and width.</p>
+    <p class="highlight">This area uses a radial gradient!</p>
+    <button >Hover Me</button>
+</div>
+
+</body>
+</html>

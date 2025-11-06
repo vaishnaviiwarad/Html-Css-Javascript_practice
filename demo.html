@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="demo.css" >
+    <link rel="shortcut icon" href="fav.jpg">
+
+</head>
+
+
+<body>
+
+    
+    <h1>Pixamount Interns</h1>
+    <p>My day one task </p>
+    
+    <hr>
+<br>
+
+ <table class="table" border="1" >
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>maths</th>
+            <th>English</th>
+            <th>CS</th>
+        </tr>
+        <tr>
+            <td>vaishnavi</td>
+            <td>21</td>
+            <td>45</td>
+            <td colspan="2">100</td>
+        </tr>
+    </table>
+        <ol type="I">
+        <li>Table tags- </li>
+        <ul>
+            <li>table</li>
+            <li>tr(table row)</li>
+            <li>td(table data)</li>
+            <li>thead(table head)</li>
+            <li>tbody(table body)</li>
+        </ul>
+       
+    </ol><br>
+
+    
+    <div class="form-div">
+    <form action="">
+        <fieldset>
+             <legend>Employee form to fill</legend><br>
+        <input type="text" name="" id="" placeholder="Employee name"><br>
+        <input type="email" name="" id="" placeholder="email"><br>
+        <label for="">Joing Date:</label>
+        
+        <input type="date"><br><br>
+       
+       
+        <input type="submit" value="Register" style="background-color: rgb(48, 139, 214); border: 0px ; border-radius: 20px;">
+    
+        <a href="login.html" target="_blank">Already Registered? Login</a><br>
+      
+    </fieldset>
+    </form></div>
+
+    <div onclick="submitHandler()">
+        <button>submit
+        
+    </div>
+
+
+    <h1 id="id1"></h1>
+
+    
+    <script>
+        function submitHandler(){
+            alert("Congrulations")
+            document.getElementById('id1').innerText="Tasks Submitted Successfully";
+        }
+    </script>
+</body>
+</html>
