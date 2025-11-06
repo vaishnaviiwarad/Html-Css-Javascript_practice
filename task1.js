@@ -119,4 +119,3 @@
 // getData();
 
 
-console.log("vaishnavi")
